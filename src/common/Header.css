@@ -1,0 +1,17 @@
+.nav-container {
+  background: #3c3b3a;
+}
+
+h1 {
+  color: #faf4e6;
+  position: absolute;
+  margin-left: "4.51px";
+  margin-right: "91.67%";
+  margin-top: "35.9%";
+  margin-bottom: "38.46%";
+
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+}
