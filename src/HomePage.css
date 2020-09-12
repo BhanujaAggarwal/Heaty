@@ -1,0 +1,106 @@
+img.bg{
+    position: fixed;
+}
+div.InfoGrey{
+    position: fixed;
+    left: 37%;
+    right: 0%;
+    top: 6.8%;
+    bottom: 0%;
+    background: rgba(61, 61, 61, 0.92);
+    /* position: absolute; */
+}
+h1.txtHeat{
+    position: absolute;
+    left: 4%;
+    right: 68.61%;
+    top: 33.3%;
+    bottom: 39.36%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 88px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+p.info{
+    position: absolute;
+left: 46.32%;
+right: 8.54%;
+top: 21.68%;
+bottom: 43.85%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 43px;
+text-align: center;
+
+color: #E4E4E4;
+
+}
+
+p.info2{
+    position: absolute;
+left: 46.32%;
+right: 8.54%;
+top: 47.68%;
+bottom: 43.85%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 43px;
+text-align: center;
+
+color: #E4E4E4;
+
+}
+
+Button.getStarted{
+    display: flex;
+    flex-direction: column;
+    padding: 16px 32px;
+
+    position: absolute;
+    left: 59.79%;
+    right: 22.08%;
+    top: 79.2%;
+    bottom: 14.84%;
+
+    border: 1px solid #F1F1F1;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+p.startBtntxt{
+    position: static;
+    left: 24.14%;
+    right: 24.14%;
+    top: 26.23%;
+    bottom: 26.23%;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    text-align: center;
+
+    color: #F2F2F2;
+
+
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: -6px 12px;
+}
+
+

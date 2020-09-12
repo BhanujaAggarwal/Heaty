@@ -1,43 +1,23 @@
-.nav-container {
-  background: #3c3b3a;
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-  height: 65px;
-}
-.nav-title {
-  position: absolute;
-  left: 4.51%;
-  right: 91.67%;
-  top: 35.9%;
-  bottom: 38.46%;
-
-  /* h4 */
-
-  font-family: "Be Vietnam";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 100%;
-  /* identical to box height, or 20px */
-
-  letter-spacing: -0.02em;
-
-  color: #faf4e6;
+p.qw{
+  left: 50%;
+right: 50%;
+top: 11.62%;
+bottom: 83.3%;
+font-family: Be Vietnam;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
 }
 
-a {
-  position: absolute;
-
-  /* label */
-
-  font-family: "Be Vietnam";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
-
-  color: #faf4e6;
+img.q{
+  padding-left:42px;
 }
+
+.super-colors{
+  color: white;
+    font-weight: bold;
+  background-color: black;
+}
+
