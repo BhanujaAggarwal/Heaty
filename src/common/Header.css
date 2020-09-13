@@ -1,23 +1,22 @@
-p.qw{
+p.qw {
   left: 50%;
-right: 50%;
-top: 11.62%;
-bottom: 83.3%;
-font-family: Be Vietnam;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 26px;
-text-align: center;
+  right: 50%;
+  top: 11.62%;
+  bottom: 83.3%;
+  font-family: Be Vietnam;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
 }
 
-img.q{
-  padding-left:42px;
+img.q {
+  padding-left: 42px;
 }
 
-.super-colors{
+.super-colors {
   color: white;
-    font-weight: bold;
+  font-weight: bold;
   background-color: black;
 }
-
