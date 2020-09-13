@@ -1,0 +1,106 @@
+.level {
+  position: absolute;
+  left: 5.33%;
+  right: 60.18%;
+  top: 15.75%;
+  bottom: 72.95%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #4b4b4b;
+}
+
+.bar {
+  position: absolute;
+  width: 613px;
+  height: 268px;
+  left: 80px;
+  top: 226px;
+
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.temp {
+  position: absolute;
+  left: 12.33%;
+  right: 86.04%;
+  top: 24.71%;
+  bottom: 67.29%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 44px;
+  text-align: center;
+
+  color: #8ccd47;
+}
+.degree {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 122px;
+  top: 140px;
+
+  /* border: 2px solid #8ccd47; */
+  box-sizing: border-box;
+}
+
+.time {
+  position: absolute;
+  left: 20.18%;
+  right: 65.18%;
+  top: 26.39%;
+  bottom: 67.77%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #4b4b4b;
+}
+
+.energy {
+  position: absolute;
+  width: 120px;
+  height: 40px;
+  left: 12.08%;
+  top: 13.8%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 120.4%;
+  /* or 22px */
+
+  color: #5f5f5f;
+}
+.percent {
+  position: absolute;
+  width: 34px;
+  height: 22px;
+  left: 85.5%;
+  top: 20.8%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 120.4%;
+  /* identical to box height, or 22px */
+
+  color: #5f5f5f;
+}
