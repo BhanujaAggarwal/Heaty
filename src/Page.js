@@ -9,12 +9,15 @@ import { Button, Icon } from "semantic-ui-react";
 import ButtonGroup from "react-bootstrap/ButtonGroup";
 import ToggleButton from "react-bootstrap/ToggleButton";
 import Header from "./common/Header";
+import low from "./common/low.png";
+import high from "./common/high.png";
+import med from "./common/med.png";
 var divStyle = {
   position: "absolute",
   left: "-0.42%",
   right: "38.31%",
   top: "8.62%",
-  bottom: "-0.39%",
+  bottom: "-0%",
   backgroundImage: "url(" + Bitmap + ")"
 };
 class Page extends React.Component {
@@ -180,10 +183,11 @@ class Page extends React.Component {
                 position: "absolute",
                 left: "43.22%",
                 right: "71.81%",
-                top: "86.62%",
-                bottom: "12.01%"
+                top: "91.62%",
+                bottom: "7.01%"
               }}
               name=" circle"
+              size="small"
               onClick={this.handleChange1}
             ></Icon>
           ) : (
@@ -192,10 +196,11 @@ class Page extends React.Component {
                 position: "absolute",
                 left: "43.22%",
                 right: "71.81%",
-                top: "86.62%",
+                top: "91.62%",
                 bottom: "12.01%"
               }}
               name=" circle outline"
+              size="small"
               onClick={this.handleChange1}
             ></Icon>
           )}
@@ -205,10 +210,11 @@ class Page extends React.Component {
                 position: "absolute",
                 left: "49.21%",
                 right: "47.82%",
-                top: "86.62%",
+                top: "91.62%",
                 bottom: "12.01%"
               }}
               name=" circle "
+              size="small"
               onClick={this.handleChange2}
             ></Icon>
           ) : (
@@ -217,10 +223,11 @@ class Page extends React.Component {
                 position: "absolute",
                 left: "49.21%",
                 right: "47.82%",
-                top: "86.62%",
+                top: "91.62%",
                 bottom: "12.01%"
               }}
               name=" circle outline"
+              size="small"
               onClick={this.handleChange2}
             ></Icon>
           )}
@@ -230,10 +237,11 @@ class Page extends React.Component {
                 position: "absolute",
                 left: "54.92%",
                 right: "46.11%",
-                top: "86.62%",
+                top: "91.62%",
                 bottom: "12.01%"
               }}
               name=" circle "
+              size="small"
               onClick={this.handleChange3}
             ></Icon>
           ) : (
@@ -242,10 +250,11 @@ class Page extends React.Component {
                 position: "absolute",
                 left: "54.92%",
                 right: "46.11%",
-                top: "86.62%",
+                top: "91.62%",
                 bottom: "12.01%"
               }}
               name=" circle outline"
+              size="small"
               onClick={this.handleChange3}
             ></Icon>
           )}
@@ -272,8 +281,23 @@ class Page extends React.Component {
               className="crowdtext
           "
             >
-              {" "}
               Crowd Level
+            </div>
+            <div className="rect1">
+              <div>
+                <div className="crowdtype">Low </div>
+                <img src={low} className="low" />
+              </div>
+            </div>
+            <div className="rect2">
+              {" "}
+              <div className="crowdtype">Mid </div>
+              <img src={med} className="med" />
+            </div>
+            <div className="rect3">
+              {" "}
+              <div className="crowdtype">High </div>
+              <img src={high} className="high" />
             </div>
           </div>
         </div>

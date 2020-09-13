@@ -22,7 +22,7 @@
   width: 613px;
   height: 268px;
   left: 80px;
-  top: 218px;
+  top: 195px;
 
   background: #ffffff;
   border-radius: 20px;
@@ -48,8 +48,8 @@
   position: absolute;
   width: 10px;
   height: 10px;
-  left: 122px;
-  top: 136px;
+  left: 125px;
+  top: 123px;
 
   /* border: 2px solid #8ccd47; */
   box-sizing: border-box;
@@ -110,7 +110,7 @@
   width: 58px;
   height: 17px;
   left: 375px;
-  top: 540px;
+  top: 510px;
 
   font-family: "Montserrat";
   font-style: normal;
@@ -149,10 +149,10 @@
 
 .usage {
   position: absolute;
-  width: 499px;
+  width: 500px;
   height: 200px;
-  left: 790px;
-  top: 55px;
+  left: 800px;
+  top: 50px;
 
   background: linear-gradient(180deg, #232526 0%, #6a6e73 100%);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -168,7 +168,8 @@
   background: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
 
-  border: "1px solid white";
+  border-right: 1px solid #f3f3f3;
+  border-left: 1px solid #f3f3f3;
 }
 
 .box2 {
@@ -181,7 +182,8 @@
   background: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
 
-  border: "1px solid white";
+  border-right: 1px solid #f3f3f3;
+  border-left: 1px solid #f3f3f3;
 }
 .box1 {
   position: absolute;
@@ -192,8 +194,9 @@
 
   background: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
-
-  border: "1px solid white";
+  border-right: 1px solid #f3f3f3;
+  border-left: 1px solid #f3f3f3;
+  border-left: "1px solid white";
 }
 .usagetext {
   position: absolute;
@@ -252,9 +255,9 @@
 }
 .crowd {
   position: absolute;
-  width: 485px;
+  width: 500px;
   height: 200px;
-  left: 5px;
+  left: 0px;
   top: 200px;
 
   background: linear-gradient(180deg, #f8b500 0%, #ffe49e 100%);
@@ -276,4 +279,88 @@
   text-align: center;
 
   color: #f2f2f2;
+}
+.rect1 {
+  position: absolute;
+  left: 15.65%;
+  right: 67.03%;
+  top: 30.92%;
+  bottom: 20.11%;
+
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  border-right: 1px solid #f3f3f3;
+  border-left: 1px solid #f3f3f3;
+}
+.rect2 {
+  position: absolute;
+  left: 45.65%;
+  right: 38.03%;
+  top: 30.92%;
+  bottom: 20.11%;
+
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+
+  border-right: 1px solid #f3f3f3;
+  border-left: 1px solid #f3f3f3;
+}
+
+.rect3 {
+  position: absolute;
+  left: 72.65%;
+  right: 8.03%;
+  top: 15.92%;
+  bottom: 20.11%;
+
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+
+  border-right: 1px solid #f3f3f3;
+  border-left: 1px solid #f3f3f3;
+}
+
+.low {
+  position: absolute;
+  left: 35.71%;
+  right: 36.03%;
+  top: 50%;
+  bottom: 26.76%;
+}
+
+.med {
+  position: absolute;
+  left: 34.52%;
+  right: 30.19%;
+  top: 50%;
+  bottom: 23.2%;
+}
+
+.high {
+  position: absolute;
+  left: 27.11%;
+  right: 5.92%;
+  top: 59.22%;
+  bottom: 17.28%;
+}
+
+.crowdtype {
+  position: absolute;
+  left: 29.76%;
+  right: 30.95%;
+  top: 10.91%;
+  bottom: 61.19%;
+
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 28px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  /* text shadow normal */
+
+  text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
 }
