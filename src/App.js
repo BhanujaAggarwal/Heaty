@@ -10,7 +10,6 @@ function App() {
   return (
     <BrowserRouter>
       <div>
-        {/* <Header /> */}
         <Switch>
           <Route path="/getstarted" component={Page} />
           <Route path="/partners" component={Partners} />
